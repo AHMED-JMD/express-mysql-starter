@@ -2,6 +2,10 @@ const db = require("./models/index");
 require("dotenv").config();
 const app = require("./index");
 
+/**
+ * @description add your db connection here
+ */
+
 // //connect to database
 // (async () => {
 //   await db.sequelize.sync();
